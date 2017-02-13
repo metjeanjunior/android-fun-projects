@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.example.metje.hangmanticklist.TicTacToe">
+
+    <LinearLayout
+        android:id="@+id/row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/row0"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.10"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/c00"
+                android:tag="00"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".33" />
+
+            <Button
+                android:id="@+id/c01"
+                android:tag="01"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".33" />
+
+            <Button
+                android:id="@+id/c02"
+                android:tag="02"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".33" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.10"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/c10"
+                android:tag="10"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".33" />
+
+            <Button
+                android:id="@+id/c11"
+                android:tag="11"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".33" />
+            <Button
+                android:id="@+id/c12"
+                android:tag="12"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".33" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.10"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/c20"
+                android:tag="20"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".33" />
+            <Button
+                android:id="@+id/c21"
+                android:tag="21"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".33" />
+            <Button
+                android:id="@+id/c22"
+                android:tag="22"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".33" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/infoView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:layout_weight=".5"/>
+            <TextView
+                android:id="@+id/scoreView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:layout_weight=".5"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/newGame"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:background="@drawable/button_rounded_corner"
+            android:text="NEW GAME"/>
+
+    </LinearLayout>
+</LinearLayout>

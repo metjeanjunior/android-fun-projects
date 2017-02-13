@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Fixed Price Meal</string>
+    <!--Choose buttons-->
+    <string name="choose_appetizer">Choose Your Appetizers Course</string>
+    <string name="choose_pasta">Choose Your Pasta Course</string>
+    <string name="choose_meat">Choose Your Meat/Fish Course</string>
+    <string name="choose_dessert">Choose Your Dessert Course</string>
+    
+    <!--Select buttons-->
+    <string name="clear">Clear Choices and Start Over</string>
+    <string name="confirm">Confirm Order</string>
+    
+    <!--Main textview choices-->
+    <string name="app_choice_text">Appetizers: %1$s</string>
+    <string name="pasta_choice_text">Pasta Course: %1$s</string>
+    <string name="meat_choice_text">Meat/Fish Course: %1$s</string>
+    <string name="des_choice_text">Dessert Course: %1$s</string>
+    
+    <!--Choices for appetizers-->
+    <string-array name="app_choices">
+        <item>Bacon-Wrapped Snails</item>
+        <item>Fried Beetles</item>
+        <item>Sauté Rattlesnake</item>
+        <item>Hot and Spicy Chicken Feet</item>
+        <item>Stuffed Blobfish</item>
+    </string-array>
+    
+    <!--Choices for pasta-->
+    <string-array name="pasta_choices">
+        <item>Spaghetti Alla Vongole</item>
+        <item>Penne Puttanesca</item>
+        <item>Rigatoni Alla Bolognese</item>
+        <item>Cannelloni</item>
+        <item>Arugula Ravioli</item>
+        <item>Gnocchi Alle Castagne</item>
+    </string-array>
+    
+    <!--Choices for meat-->
+    <string-array name="meat_choices">
+        <item>Tatar Beefsteak</item>
+        <item>Pfeffersteak</item>
+        <item>Seezungenfilet</item>
+        <item>Langosta</item>
+    </string-array>
+
+    <!--Choices for dessert-->
+    <string-array name="dessert_choices">
+        <item>Clafoutis</item>
+        <item>Mille-Feuille</item>
+        <item>Kouign-Amann</item>
+    </string-array>
+
+    <!--dialogs-->
+    <string name="ckear_dialog_title">Clear Selections?</string>
+    <string name="confirm_dialog_title">Name and Table of Customer?</string>
+    <string name="clear_dialog_title">Are you sure you want to clear everything?</string>
+    <string name="ok">YES</string>
+    <string name="cancel">NOOOO!</string>
+</resources>

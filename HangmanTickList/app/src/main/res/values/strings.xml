@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HangmanTickList</string>
+    <string-array name="item_names">
+        <item>Hangman</item>
+        <item>Tic Tac Toe</item>
+    </string-array>
+    <string name="make_move">Tap on a Button to Make Your Move</string>
+    <string name="won_game">Game Over. You won :)</string>
+    <string name="lost_game">Game Over. You lost :{</string>
+    <string name="tie_game">Game Over. It\'s a tie :|</string>
+</resources>

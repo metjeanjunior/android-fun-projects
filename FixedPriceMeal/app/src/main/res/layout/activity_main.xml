@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/mainLayout"
+              android:orientation="vertical" >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight = ".25"
+        android:src="@drawable/resmain"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".25"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/appetizerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight = ".25"
+            android:text="@string/choose_appetizer"/>
+        <Button
+            android:id="@+id/pastaButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight = ".25"
+            android:text="@string/choose_pasta"/>
+        <Button
+            android:id="@+id/meatButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight = ".25"
+            android:text="@string/choose_meat"/>
+        <Button
+            android:id="@+id/dessertButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight = ".25"
+            android:text="@string/choose_dessert"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/resViews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".25"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/appTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight = ".25"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:text="@string/app_choice_text"/>
+        <TextView
+            android:id="@+id/pastaTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight = ".25"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:text="@string/pasta_choice_text"/>
+        <TextView
+            android:id="@+id/meatTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight = ".25"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:text="@string/meat_choice_text"/>
+        <TextView
+            android:id="@+id/desTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight = ".25"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:text="@string/des_choice_text"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".25"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight = ".5"
+            android:background="@color/colorAccent"
+            android:text="@string/clear"/>
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight = ".5"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/confirm"/>
+    </LinearLayout>
+</LinearLayout>
