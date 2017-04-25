@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Earthquake Analyzer</string>
+
+    <string-array name="data_choices">
+        <item>Search by Lat and Long</item>
+        <item>Search by Location</item>
+        <item>Search by Date</item>
+        <item>General Search (1+ filter)</item>
+    </string-array>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

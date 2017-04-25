@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.metje.earthquakeanalyzer.MainActivity">
+    <item
+        android:id="@+id/action_show_map"
+        android:orderInCategory="100"
+        android:title="Show List on Map"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_num_quakes"
+        android:orderInCategory="101"
+        android:title="Show EQ Count"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_fav_eqs"
+        android:orderInCategory="102"
+        android:title="Show Fav EQs"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="103"
+        android:title="Help"
+        app:showAsAction="never"/>
+</menu>

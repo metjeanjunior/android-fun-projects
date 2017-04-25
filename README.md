@@ -4,3 +4,4 @@
   * SimpleTDL -> A simple To-Do list app with persistent data and text-to-speach
     * ToDO a V.2 with subtasks
   * CD Catalog -> A simple CD catalog app. 
+  * EQ Analyzer -> An app that makes uses of threading, JSON data pulling to show earthquake info
